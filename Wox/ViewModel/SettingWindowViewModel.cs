@@ -290,7 +290,7 @@ namespace Wox.ViewModel
             get
             {
                 var typeface = SyntaxSugars.CallOrRescueDefault(
-                    () => SelectedResultFont.ConvertFromInvariantStringsOrNormal(
+                    () => SelectedQueryBoxFont.ConvertFromInvariantStringsOrNormal(
                         Settings.ResultFontStyle,
                         Settings.ResultFontWeight,
                         Settings.ResultFontStretch

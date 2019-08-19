@@ -128,7 +128,7 @@ namespace Wox.ViewModel
 
             StartHelpCommand = new RelayCommand(_ =>
             {
-                Process.Start("http://doc.wox.one/");
+                Process.Start("http://doc.getwox.com");
             });
 
             OpenResultCommand = new RelayCommand(index =>
